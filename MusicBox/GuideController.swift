@@ -11,7 +11,15 @@ class GuideController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         view.backgroundColor = .yellow
+    }
+
+    override var prefersStatusBarHidden: Bool {
+        return false
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
 }

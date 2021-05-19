@@ -16,6 +16,7 @@
 		8C02B6B326539C3E00413D70 /* MusicBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C02B6B226539C3E00413D70 /* MusicBoxUITests.swift */; };
 		8C5C03162654ECFB00261D0B /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C03152654ECFB00261D0B /* SplashController.swift */; };
 		8C5C031E2654EF1400261D0B /* GuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C031D2654EF1400261D0B /* GuideController.swift */; };
+		8C5C03302654FD8400261D0B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C032F2654FD8400261D0B /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		8C02B6B426539C3E00413D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C5C03152654ECFB00261D0B /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
 		8C5C031D2654EF1400261D0B /* GuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideController.swift; sourceTree = "<group>"; };
+		8C5C032F2654FD8400261D0B /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		ED63F4A386535706E9CE7A22 /* Pods-MusicBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicBox.debug.xcconfig"; path = "Target Support Files/Pods-MusicBox/Pods-MusicBox.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				8C02B69026539C3D00413D70 /* AppDelegate.swift */,
+				8C5C032E2654FD7400261D0B /* Util */,
 				8C5C03142654ECBB00261D0B /* Controller */,
 				8C02B69626539C3D00413D70 /* Main.storyboard */,
 				8C02B69926539C3E00413D70 /* Assets.xcassets */,
@@ -150,6 +153,14 @@
 				8C5C031D2654EF1400261D0B /* GuideController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		8C5C032E2654FD7400261D0B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8C5C032F2654FD8400261D0B /* Constant.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 		D04B457E4D3284541D91FC90 /* Frameworks */ = {
@@ -337,6 +348,7 @@
 				8C02B69126539C3D00413D70 /* AppDelegate.swift in Sources */,
 				8C5C031E2654EF1400261D0B /* GuideController.swift in Sources */,
 				8C5C03162654ECFB00261D0B /* SplashController.swift in Sources */,
+				8C5C03302654FD8400261D0B /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
