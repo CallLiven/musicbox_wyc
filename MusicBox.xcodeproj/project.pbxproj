@@ -17,6 +17,9 @@
 		8C5C03162654ECFB00261D0B /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C03152654ECFB00261D0B /* SplashController.swift */; };
 		8C5C031E2654EF1400261D0B /* GuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C031D2654EF1400261D0B /* GuideController.swift */; };
 		8C5C03302654FD8400261D0B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C032F2654FD8400261D0B /* Constant.swift */; };
+		8C5C03382655002B00261D0B /* ViewUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C03372655002B00261D0B /* ViewUtil.swift */; };
+		8C5C033E265501CC00261D0B /* ViewExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C033D265501CC00261D0B /* ViewExtend.swift */; };
+		8C5C0346265503BB00261D0B /* ColorExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C0345265503BB00261D0B /* ColorExtend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		8C5C03152654ECFB00261D0B /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
 		8C5C031D2654EF1400261D0B /* GuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideController.swift; sourceTree = "<group>"; };
 		8C5C032F2654FD8400261D0B /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		8C5C03372655002B00261D0B /* ViewUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUtil.swift; sourceTree = "<group>"; };
+		8C5C033D265501CC00261D0B /* ViewExtend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtend.swift; sourceTree = "<group>"; };
+		8C5C0345265503BB00261D0B /* ColorExtend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtend.swift; sourceTree = "<group>"; };
 		ED63F4A386535706E9CE7A22 /* Pods-MusicBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicBox.debug.xcconfig"; path = "Target Support Files/Pods-MusicBox/Pods-MusicBox.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				8C02B69026539C3D00413D70 /* AppDelegate.swift */,
+				8C5C033C265501C000261D0B /* Extend */,
 				8C5C032E2654FD7400261D0B /* Util */,
 				8C5C03142654ECBB00261D0B /* Controller */,
 				8C02B69626539C3D00413D70 /* Main.storyboard */,
@@ -159,8 +166,18 @@
 			isa = PBXGroup;
 			children = (
 				8C5C032F2654FD8400261D0B /* Constant.swift */,
+				8C5C03372655002B00261D0B /* ViewUtil.swift */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		8C5C033C265501C000261D0B /* Extend */ = {
+			isa = PBXGroup;
+			children = (
+				8C5C033D265501CC00261D0B /* ViewExtend.swift */,
+				8C5C0345265503BB00261D0B /* ColorExtend.swift */,
+			);
+			name = Extend;
 			sourceTree = "<group>";
 		};
 		D04B457E4D3284541D91FC90 /* Frameworks */ = {
@@ -349,6 +366,9 @@
 				8C5C031E2654EF1400261D0B /* GuideController.swift in Sources */,
 				8C5C03162654ECFB00261D0B /* SplashController.swift in Sources */,
 				8C5C03302654FD8400261D0B /* Constant.swift in Sources */,
+				8C5C033E265501CC00261D0B /* ViewExtend.swift in Sources */,
+				8C5C0346265503BB00261D0B /* ColorExtend.swift in Sources */,
+				8C5C03382655002B00261D0B /* ViewUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
