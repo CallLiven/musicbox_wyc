@@ -23,7 +23,7 @@ let SIZE_LARGE_RADIUS: CGFloat  = 22.0
 let SIZE_BORDER: CGFloat = 1
 
 
-// MARK: - 颜色
+// MARK: - 颜色1
 
 /// 全局主色调
 let COLOR_PRIMARY = 0x00B6B5
