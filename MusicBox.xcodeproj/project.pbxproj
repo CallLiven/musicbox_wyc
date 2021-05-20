@@ -28,6 +28,9 @@
 		8C76901826565488008619F2 /* StringExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76901726565488008619F2 /* StringExtend.swift */; };
 		8C76901C26565508008619F2 /* StringExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76901726565488008619F2 /* StringExtend.swift */; };
 		8C76902626565C80008619F2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C032F2654FD8400261D0B /* Constant.swift */; };
+		8C76902B26565EE4008619F2 /* FileUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76902A26565EE4008619F2 /* FileUtil.swift */; };
+		8C76903126565F47008619F2 /* FileUtilTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76903026565F47008619F2 /* FileUtilTest.swift */; };
+		8C76903826566064008619F2 /* FileUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76902A26565EE4008619F2 /* FileUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,8 @@
 		8C769009265646AC008619F2 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		8C76900F26565477008619F2 /* StringExtendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtendTests.swift; sourceTree = "<group>"; };
 		8C76901726565488008619F2 /* StringExtend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtend.swift; sourceTree = "<group>"; };
+		8C76902A26565EE4008619F2 /* FileUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUtil.swift; sourceTree = "<group>"; };
+		8C76903026565F47008619F2 /* FileUtilTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUtilTest.swift; sourceTree = "<group>"; };
 		ED63F4A386535706E9CE7A22 /* Pods-MusicBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicBox.debug.xcconfig"; path = "Target Support Files/Pods-MusicBox/Pods-MusicBox.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,6 +157,7 @@
 		8C02B6A626539C3E00413D70 /* MusicBoxTests */ = {
 			isa = PBXGroup;
 			children = (
+				8C76902F26565F31008619F2 /* Util */,
 				8C76900E26565450008619F2 /* Extend */,
 				8C02B6A726539C3E00413D70 /* MusicBoxTests.swift */,
 				8C02B6A926539C3E00413D70 /* Info.plist */,
@@ -174,6 +180,7 @@
 				8C5C032F2654FD8400261D0B /* Constant.swift */,
 				8C5C03372655002B00261D0B /* ViewUtil.swift */,
 				8C769004265606AB008619F2 /* PreferenceUtil.swift */,
+				8C76902A26565EE4008619F2 /* FileUtil.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -206,6 +213,14 @@
 				8C76900F26565477008619F2 /* StringExtendTests.swift */,
 			);
 			name = Extend;
+			sourceTree = "<group>";
+		};
+		8C76902F26565F31008619F2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8C76903026565F47008619F2 /* FileUtilTest.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		D04B457E4D3284541D91FC90 /* Frameworks */ = {
@@ -400,6 +415,7 @@
 				8C5C034B265513E900261D0B /* LoginOrRegisterController.swift in Sources */,
 				8C5C0346265503BB00261D0B /* ColorExtend.swift in Sources */,
 				8C769005265606AB008619F2 /* PreferenceUtil.swift in Sources */,
+				8C76902B26565EE4008619F2 /* FileUtil.swift in Sources */,
 				8C76900A265646AC008619F2 /* BaseController.swift in Sources */,
 				8C5C03382655002B00261D0B /* ViewUtil.swift in Sources */,
 			);
@@ -409,10 +425,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C76903826566064008619F2 /* FileUtil.swift in Sources */,
 				8C76902626565C80008619F2 /* Constant.swift in Sources */,
 				8C76901C26565508008619F2 /* StringExtend.swift in Sources */,
 				8C76901026565477008619F2 /* StringExtendTests.swift in Sources */,
 				8C02B6A826539C3E00413D70 /* MusicBoxTests.swift in Sources */,
+				8C76903126565F47008619F2 /* FileUtilTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

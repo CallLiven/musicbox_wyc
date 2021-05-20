@@ -1,5 +1,5 @@
 //
-//  StringExtendTests.swift
+//  FileUtilTest.swift
 //  MusicBoxTests
 //
 //  Created by 詹前力 on 2021/5/20.
@@ -7,16 +7,14 @@
 
 import XCTest
 
-class StringExtendTests: XCTestCase {
+class FileUtilTest: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        // 每此调用测试方法之前，调用此方法
     }
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
-        // 每次调用测试方法之后，调用此方法
     }
 
     func testPerformanceExample() throws {
@@ -26,12 +24,16 @@ class StringExtendTests: XCTestCase {
         }
     }
     
-    /// 测试手机号
-    func testIsPhone() {
-        /// assert 代表只有结果为true 才测试通过
-        assert("1111137386".isPhone())
+    
+    func testFormatFileSize() {
+        // 测试用例要尽快能的覆盖所有的情况，包括正确的和错误的
+        XCTAssertEqual(FileUtil.formatFileSize(1), "1.00Byte")
+        
+        XCTAssertEqual(FileUtil.formatFileSize(1234), "1.21k")
+        
+        XCTAssertEqual(FileUtil.formatFileSize(1234), "1.20k")
     }
     
-    
+      
 
 }
