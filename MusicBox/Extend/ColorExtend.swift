@@ -8,6 +8,7 @@
 import UIKit
 
 extension UIColor {
+    
     public convenience init(hex: Int, alpha: CGFloat = 1.0){
         /// 从Int中，通过与运算取出对应的颜色
         /// 最高两位是红色

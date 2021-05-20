@@ -3,7 +3,7 @@
 //  MusicBox
 //
 //  Created by 詹前力 on 2021/5/19.
-//
+//  启动页
 
 import UIKit
 
@@ -40,6 +40,11 @@ class SplashController: UIViewController {
     
     /// 跳转到引导页
     func next() {
-        AppDelegate.shared.toGuide()
+        if PreferenceUtil.isShowGuide {
+            AppDelegate.shared.toGuide()
+        }else{
+            AppDelegate.shared.toHome()
+        }
+        
     }
 }

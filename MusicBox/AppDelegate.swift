@@ -24,10 +24,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
+    // MARK: - 引导页
     func toGuide() {
         /// 通过rootViewController的方式，是为了避免用户返回到上一级界面
         let gvc =  GuideController()
-        window!.rootViewController = gvc
+        window?.rootViewController = gvc
+    }
+    
+    // MARK: - 登录注册页
+    func toLoginOrRegister() {
+        let lvc = LoginOrRegisterController()
+        window?.rootViewController = lvc
+    }
+    
+    // MARK: - 首页
+    func toHome() {
+        let hvc = HomeController()
+        window?.rootViewController = hvc
     }
 
 }
