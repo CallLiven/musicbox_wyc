@@ -32,6 +32,7 @@
 		8C76903126565F47008619F2 /* FileUtilTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76903026565F47008619F2 /* FileUtilTest.swift */; };
 		8C76903826566064008619F2 /* FileUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76902A26565EE4008619F2 /* FileUtil.swift */; };
 		8C7690532656AFE3008619F2 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7690522656AFE3008619F2 /* Service.swift */; };
+		8C76907326573809008619F2 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76907226573809008619F2 /* RegisterController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		8C76902A26565EE4008619F2 /* FileUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUtil.swift; sourceTree = "<group>"; };
 		8C76903026565F47008619F2 /* FileUtilTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUtilTest.swift; sourceTree = "<group>"; };
 		8C7690522656AFE3008619F2 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8C76907226573809008619F2 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 		ED63F4A386535706E9CE7A22 /* Pods-MusicBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicBox.debug.xcconfig"; path = "Target Support Files/Pods-MusicBox/Pods-MusicBox.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -206,6 +208,7 @@
 				8C5C034A265513E900261D0B /* LoginOrRegisterController.swift */,
 				8C5C034F265515F800261D0B /* HomeController.swift */,
 				8C769009265646AC008619F2 /* BaseController.swift */,
+				8C76907226573809008619F2 /* RegisterController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				8C5C031E2654EF1400261D0B /* GuideController.swift in Sources */,
 				8C5C03162654ECFB00261D0B /* SplashController.swift in Sources */,
 				8C5C03302654FD8400261D0B /* Constant.swift in Sources */,
+				8C76907326573809008619F2 /* RegisterController.swift in Sources */,
 				8C76901826565488008619F2 /* StringExtend.swift in Sources */,
 				8C5C033E265501CC00261D0B /* ViewExtend.swift in Sources */,
 				8C5C0350265515F800261D0B /* HomeController.swift in Sources */,
