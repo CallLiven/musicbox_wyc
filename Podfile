@@ -6,9 +6,9 @@ target 'MusicBox' do
   use_frameworks!
 
 # 网络请求框架
-pod 'Moya' , '~>14.0.0'
+pod 'Moya/RxSwift' , '~>14.0.0'
 
 # JSON 解析框架
-pod 'HandyJSON', '~>4.1.3'
+pod 'HandyJSON', '~>5.0.2'
 
 end

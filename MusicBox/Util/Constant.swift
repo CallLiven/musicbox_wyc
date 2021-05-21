@@ -9,6 +9,12 @@
 import UIKit
 
 
+// MARK: - 开发环境
+let ENDPOINT = "http://dev-my-cloud-music-api-rails.ixuea.com"
+
+// MARK: - 生产环境
+//let ENDPOINT = "http://dev-my-cloud-music-api-rails.ixuea.com"
+
 // MARK: - 尺寸
 
 /// 立即体验按钮宽度
